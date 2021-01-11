@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body{
     background-color: #ffffff;
 }
@@ -57,7 +61,7 @@ body{
     font-size: 20px;
   }
   
-  /* Style the social media icons with color, if you want */
+  /* Style the social media icons with color*/
   .icon-bar a:hover {
     border: 2px solid white;
   }
@@ -88,12 +92,15 @@ body{
   }
 
 .my-container{
-  height: 425px;
-  margin: 0 0.8rem;
-  padding: 20px;
-  padding-left: 70px;;
   background-color: #353535;
   color: white;
+}
+
+.dark-card{
+  margin-left: 12%;
+  animation: none !important;
+  border:none !important;
+  background-color: #353535 !important;
 }
 
 .my-container > h1{
@@ -106,13 +113,7 @@ body{
 }
 
 .my-container > .inl{
-  display: inline;
-}
-
-.my-container > .img{
-    padding-top: 3%;
-    float: right;
-    margin-right: 10%;
+  display: inline-block;
 }
 
 .sign-button{
