@@ -10,9 +10,24 @@ body{
     text-align: center;
 }
 
-.nav-right{
-    margin-left: 500px;
-    text-align: right;
+ul#right-nav{
+  position: absolute;
+  margin-right: 0;
+  margin-left: 65%;
+}
+
+ul#right-nav > li{
+  padding: 10px;
+  font-size: 14px;;
+}
+
+ul#right-nav > li > a{
+  color: rgb(192, 192, 192);
+}
+
+ul#right-nav > li > a:hover{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
 }
 
 .my-card:hover {
@@ -115,9 +130,9 @@ footer nav ul li{
 }
 
 div.copyright{
-    width: 100%;
     padding: 5px;
+    padding-left: 40%;
+    width: auto;
     color: white;
-    text-align: center;
     background-color: #1d1d1d;
 }
